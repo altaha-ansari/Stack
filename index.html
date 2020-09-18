@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <title>Stack</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        canvas {
+            display: block;
+        }
+
+        div {
+            position: absolute;
+            font-family: 'Didact Gothic', sans-serif;
+            text-align: center;
+            z-index: 100;
+            display: block;
+            color: #454545;
+            width: 100%;
+        }
+
+        #info {
+            top: 20px;
+            font-size: 4rem;
+        }
+
+        #gameOver {
+            display: none;
+        }
+
+        #gameOverTitle {
+            top: 40vh;
+            font-size: 4rem;
+        }
+
+        #gameOverSubtitle {
+            top: 50vh;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="info">Score : 0</div>
+    <div id="gameOver">
+        <div id="gameOverTitle">GAME OVER</div>
+        <br>
+        <div id="gameOverSubtitle">Click again to restart</div>
+    </div>
+    <script src="three.js"></script>
+    <script src="stack.js"></script>
+
+</body>
