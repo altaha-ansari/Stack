@@ -80,8 +80,8 @@ const Axes = {
 let currentAxisOfMotion = Axes.X;
 
 const updateCamera = () => {
-  camera.bottom += 0.1;
-  camera.top += 0.1;
+  camera.bottom += 0.095;
+  camera.top += 0.095;
   camera.updateProjectionMatrix();
 };
 
